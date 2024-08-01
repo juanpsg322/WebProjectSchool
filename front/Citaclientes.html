@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Form Wave</title>
+
+    <link rel="stylesheet" href="../css/Stylecitas.css" />
+    <link rel="stylesheet" href="../css/estilo1.css" type="text/css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/style.css" />-->
+
+    <script src="Scripts/jquery-3.7.1.js" type="text/javascript"></script>
+    <script type="module" src="js/style.js"></script>    
+</head>
+<body style="background-image: url(/img/pet4.jpg)">
+    <div>
+
+    </div>
+    <header>
+        <nav class="nav">
+            <div style="display: inherit;justify-content: space-between; align-items: center; margin-right:120px; padding: 0px 0; transition: all 0.3s / ease-in-out">
+                <div aling="center">
+                    <img src="img/logo 3.png" alt="" style="height: 100px; margin-left:-231px;" />
+                </div>
+                <h1 class="logo">
+                    <a href="../PortadaVeterinaria.html" style="margin-right:802px;">MascotaFeliz</a>
+                </h1>
+                <ul>
+                    <li><a href="Carrito.html">Carrito</a></li>
+                    <li><a href="../front/Iniciarsesion.html">Inicio</a></li>
+                    <li><a href="../front/Citaclientes.html">Citas</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <main class="container">
+            <h1>Mascota Feliz</h1>
+
+            <span class="special" style="margin-left:3px;">Somos Tu Mejor Opción</span>
+            <form>
+                <section class="form-control">
+                    <input type="text" required />
+                    <label>Nombre</label>
+                </section>
+                <section class="form-control">
+                    <input type="tel" required />
+                    <label>Telefono</label>
+                </section>
+                <section class="form-control">
+                    <input type="text" required />
+                    <label>Direccion</label>
+                </section>
+                <section class="form-control">
+                    <input type="text" required />
+                    <label>Correo</label>
+                </section>
+                <section class="form-control">
+                    <input type="date" />
+                    <label>Fecha Cita</label>
+                </section>
+                <section class="form-control">
+                    <!--<button type="button" class="btn btn-primary dropdown-toggle"
+                    data-bs-toggle="dropdown">
+                especie-->
+                    <!--</button>-->
+                </section>
+                <section class="form-control">
+                    <label class="form-control" for="cars" style=""></label>
+                    <select class="dropdown form-control" id="cars" name="cars" style="z-index: var(--bs-dropdown-zindex);">
+                        <option value="">Especie:</option>
+                        <option value="perro">Perro</option>
+                        <option value="gato">Gato</option>
+                        <option value="reptil">Reptil</option>
+                    </select>
+                    <!--<input type="submit">-->
+                </section>
+
+                <section class="form-control">
+                    <label class="form-control" for="cars" style=""></label>
+                    <select class="dropdown form-control" id="cars" name="cars" style="z-index: var(--bs-dropdown-zindex);">
+                        <option value="">raza:</option>
+                        <option value="perro">Perro</option>
+                        <option value="gato">Gato</option>
+                        <option value="reptil">Reptil</option>
+                    </select>
+                </section>
+
+                <button class="btn">Agendar Cita</button>
+            </form>
+        </main>
+    </div>
+   
+    <script src="../js/Stylecitas.js"></script>
+    <script src="../Scripts/bootstrap.bundle.min.js"></script>
+</body>
+</html>
